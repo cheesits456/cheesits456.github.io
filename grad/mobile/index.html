@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Fundy Grad 2018</title>
+		<style>
+			* {
+			    box-sizing: border-box;
+			}
+			body {
+			    margin: 0;
+			    font-family: Arial;
+			    font-size: 17px;
+			    background: url("../background.gif") no-repeat center center fixed;
+			    background-size: 100% 100%;
+			}
+			.content {
+			    background: rgba(160, 29, 226, 0.25);
+			    color: #f1f1f1;
+			    width: 100%;
+			    padding: 20px;
+			    height: 45%;
+			}
+			#myBtn {
+			    width: 100%;
+			    padding: 10px;
+			    border: none;
+			    background: #000;
+			    cursor: pointer;
+			    font-size: 18px;
+			  	color: #fff;
+			    text-decoration: none;
+			}
+			#myBtn:hover {
+			    background: #ddd;
+			  	color: black;	
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<center>
+				<h2 id="title" class="countdown">Loading...</h2>
+				<hr width="50%"/>
+				<h3 id="demo" class="countdown">Loading...</h3>
+				<br/>
+				<a width="100%" id="myBtn" href="http://cheesits456.github.io/">Visit my Personal Site</a>
+				<br/>
+				<br/>
+			</center>
+		</div>
+		<iframe title="Shoutbox" src="https://shoutbox.widget.me/start.html?uid=jmr8n8knc0" frameborder="0" scrolling="auto" style="position:fixed; padding:5px; bottom: 0" height="40%" width="100%"></iframe>
+		<script>
+			var countDownDate = new Date("June 22, 2018 17:00:00").getTime();
+			setInterval(function() {
+			    var now = new Date().getTime();
+			    var distance = countDownDate - now;
+			    if (distance < 0) {
+			     document.getElementById("title").innerHTML = "Time since Graduation";
+			    } else {
+			     document.getElementById("title").innerHTML = "Time until Graduation";
+			    }
+			    var years = Math.abs(Math.floor(distance / (1000 * 60 * 60 * 24 * 365.25)))
+			    var days = Math.abs(Math.floor((distance % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24)));
+			    var hours = Math.abs(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+			    var minutes = Math.abs(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+			    var seconds = Math.abs(Math.floor((distance % (1000 * 60)) / 1000));
+			    document.getElementById("demo").innerHTML = years + "y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+			}, 1000);
+		</script>
+	</body>
+</html>
