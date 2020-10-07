@@ -11,7 +11,7 @@
 			content="Something brand new and exciting is in the works! In the meantime, feel free to contact me by Email, Discord, or Instagram (links can be found at https://social.cheesits456.dev)."
 		/>
 		<meta name="theme-color" content="#e722e7" />
-		<link rel="icon" href="https://github.com/cheesits456/cheesits456/raw/master/avatar_64.png"/>
+		<link rel="icon" href="https://github.com/cheesits456/cheesits456/raw/master/avatar_64.png" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -21,14 +21,13 @@
 		<title>Site Maintenance | cheesits456.dev</title>
 		<style>
 			body {
-				background-color: #141721;
+				background-color: #0f1119;
 				padding: 10%;
 				padding-bottom: 0;
-				font: 1rem Helvetica, sans-serif;
 				color: #bbb;
 			}
 			.jumbotron {
-				background-color: #1a1d2b;
+				background-color: #1e2232;
 			}
 			.container {
 				max-width: 960px;
@@ -36,18 +35,38 @@
 			.lead {
 				font-size: 1.4rem;
 			}
+			.modal-dialog {
+				max-width: 1000px;
+			}
+			.close {
+				color: white;
+			}
+			.close:hover {
+				color: #2c75ff;
+			}
+			.close:active {
+				color: #e722e7;
+			}
+			.modal-content {
+				background-color: #0f1119;
+			}
+			.modal-header {
+				background-color: #151823;
+				border-bottom: 1px solid #0f1119;
+			}
+			.modal-body {
+				background-color: #1e2232;
+			}
+			.modal p {
+				text-align: justify;
+			}
 			.copyrighted-badge {
 				position: absolute;
 				bottom: 10px;
 				left: 10px;
 			}
 			.copyrighted-badge img {
-				font-size: 15px;
 				border-radius: 5px;
-			}
-			h1 {
-				font-size: 1rem;
-				color: #fff;
 			}
 			a {
 				color: #e722e7;
@@ -56,6 +75,12 @@
 			a:hover {
 				color: #2c75ff;
 				text-decoration: underline;
+			}
+			hr {
+				border-top: 1px solid #bbb;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				color: white;
 			}
 		</style>
 	</head>
@@ -78,20 +103,128 @@
 			</div>
 		</div>
 
-		<a
-			class="copyrighted-badge"
-			title="Registered, Protected, &amp; Monitored by copyrighted.com"
-			target="_blank"
-			href="https://www.copyrighted.com/website/HhHqkNFG7a1ISdJM"
-			><img
-				alt="Registered, Protected, &amp; Monitored by copyrighted.com"
-				border="0"
-				width="125"
-				height="75"
-				srcset="https://static.copyrighted.com/badges/125x75/03_2x.png 2x"
-				src="https://static.copyrighted.com/badges/125x75/03.png"
-		/></a>
+		<div class="copyrighted-badge">
+			<a
+				title="Registered, Protected, &amp; Monitored by copyrighted.com"
+				target="_blank"
+				href="https://www.copyrighted.com/website/HhHqkNFG7a1ISdJM"
+				><img
+					alt="Registered, Protected, &amp; Monitored by copyrighted.com"
+					border="0"
+					height="38"
+					srcset="https://static.copyrighted.com/badges/125x25/03_2_2x.png 2x"
+					src="https://static.copyrighted.com/badges/125x25/03_2_2x.png"
+			/></a>
+			&nbsp;<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#dmca">
+				DMCA Policy
+			</button>
+		</div>
 		<script src="https://static.copyrighted.com/badges/helper.js"></script>
+
+		<div
+			class="modal fade"
+			id="dmca"
+			data-backdrop="static"
+			data-keyboard="false"
+			tabindex="-1"
+			aria-labelledby="dmca-label"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title" id="dmca-label">DMCA Policy</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							This Digital Millennium Copyright Act policy (&quot;Policy&quot;) applies to the
+							<a target="_blank" rel="nofollow" href="https://cheesits456.dev">cheesits456.dev</a> website
+							(&quot;Website&quot; or &quot;Service&quot;) and any of its related products and services
+							(collectively, &quot;Services&quot;) and outlines how this Website operator
+							(&quot;Operator&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) addresses
+							copyright infringement notifications and how you (&quot;you&quot; or &quot;your&quot;) may
+							submit a copyright infringement complaint.
+						</p>
+						<p>
+							Protection of intellectual property is of utmost importance to us and we ask our users and
+							their authorized agents to do the same. It is our policy to expeditiously respond to clear
+							notifications of alleged copyright infringement that comply with the United States Digital
+							Millennium Copyright Act (&quot;DMCA&quot;) of 1998, the text of which can be found at the
+							U.S. Copyright Office
+							<a target="_blank" href="https://www.copyright.gov">website</a>.
+						</p>
+						<h3>What to consider before submitting a copyright complaint</h3>
+						<p>
+							Please note that if you are unsure whether the material you are reporting is in fact
+							infringing, you may wish to contact an attorney before filing a notification with us.
+						</p>
+						<p>
+							The DMCA requires you to provide your personal information in the copyright infringement
+							notification. If you are concerned about the privacy of your personal information, you may
+							wish to
+							<a target="_blank" href="https://www.copyrighted.com/professional-takedowns"
+								>hire an agent</a
+							>
+							to report infringing material for you.
+						</p>
+						<h3>Notifications of infringement</h3>
+						<p>
+							If you are a copyright owner or an agent thereof, and you believe that any material
+							available on our Services infringes your copyrights, then you may submit a written copyright
+							infringement notification (&quot;Notification&quot;) using the contact details below
+							pursuant to the DMCA. All such Notifications must comply with the DMCA requirements. You may
+							refer to a
+							<a target="_blank" href="https://www.websitepolicies.com/create/dmca-takedown-notice"
+								>DMCA takedown notice generator</a
+							>
+							or other similar services to avoid making mistake and ensure compliance of your
+							Notification.
+						</p>
+						<p>
+							Filing a DMCA complaint is the start of a pre-defined legal process. Your complaint will be
+							reviewed for accuracy, validity, and completeness. If your complaint has satisfied these
+							requirements, our response may include the removal or restriction of access to allegedly
+							infringing material. We may also require a court order from a court of competent
+							jurisdiction, as determined by us in our sole discretion, before we take any action.
+						</p>
+						<p>
+							If we remove or restrict access to materials or terminate an account in response to a
+							Notification of alleged infringement, we will make a good faith effort to contact the
+							affected user with information concerning the removal or restriction of access.
+						</p>
+						<p>
+							Notwithstanding anything to the contrary contained in any portion of this Policy, the
+							Operator reserves the right to take no action upon receipt of a DMCA copyright infringement
+							notification if it fails to comply with all the requirements of the DMCA for such
+							notifications.
+						</p>
+						<p>
+							The process described in this Policy does not limit our ability to pursue any other remedies
+							we may have to address suspected infringement.
+						</p>
+						<h3>Changes and amendments</h3>
+						<p>
+							We reserve the right to modify this Policy or its terms relating to the Website and Services
+							at any time, effective upon posting of an updated version of this Policy on the Website.
+							When we do, we will revise the updated date at the bottom of this page.
+						</p>
+						<h3>Reporting copyright infringement</h3>
+						<p>
+							If you would like to notify us of the infringing material or activity, you may send an email
+							to
+							<a target="_blank" href="https://social.cheesits456.dev/email"
+								>&#108;&#101;&#103;&#97;l&#64;c&#104;e&#101;&#115;&#105;&#116;&#115;4&#53;6.d&#101;&#118;</a
+							>
+						</p>
+						<hr class="my-4" />
+						<p class="small text-right">This document was last updated on October 7, 2020</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Scripts -->
 		<script
