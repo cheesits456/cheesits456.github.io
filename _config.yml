@@ -1,0 +1,35 @@
+title: cheesits456
+description: > # this means to ignore newlines until "baseurl:"
+  A personal blog for Quin Knight, better known by the online handle cheesits456
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Quin Knight # add your name
+author-img: avatar.gif # add your photo
+about-author: Just a node.js developer and pharmacy employee tryna make a living ¯\_(ツ)_/¯ # add description
+social-twitter: cheesits456 # add your Twitter handle
+# social-facebook: cheesits456 # add your Facebook handle
+social-github: cheesits456 # add your Github handle
+# social-linkedin: # add your Linkedin handle
+social-email: quin@cheesits456.dev # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
