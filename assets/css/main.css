@@ -1314,19 +1314,20 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #1e2232;
   padding: 0 20px 20px;
+  border-radius: 1rem;
 }
 
 .blog-tags h1 {
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
-  color: #263959;
+  color: #fff;
 }
 
 .blog-tags h2 {
-  color: #263959;
+  color: #fff;
   margin: 10px 0;
 }
 
@@ -1343,23 +1344,23 @@ a.newer-posts:hover {
 
 .tags li a {
   text-decoration: none;
-  color: #263959;
+  color: #2c75ff;
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid #ecf0f1;
-  background-color: #fafafa;
+  border: 1px solid #2c75ff;
+  border-radius: 0.5rem;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
 }
 
 .tags li a:hover {
-  background-color: #ecf0f1;
+  text-decoration: underline;
 }
 
 .tag-list span a {
   text-decoration: none;
-  color: #263959;
+  color: #2c75ff;
 }
 
 .tag-list span a:hover {
