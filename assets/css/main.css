@@ -1170,6 +1170,10 @@ footer .copyright {
   color: #2c75ff;
 }
 
+.post .post-content .post-title a:hover {
+	text-decoration: underline;
+}
+
 .post .post-content p {
   margin-top: 0;
 }
@@ -1200,6 +1204,15 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+}
+
+.wrap-content a {
+	color: #2c75ff;
+	text-decoration: none;
+}
+
+.wrap-content a:hover {
+	text-decoration: underline;
 }
 
 .header-page {
