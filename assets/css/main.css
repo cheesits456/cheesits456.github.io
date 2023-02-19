@@ -891,6 +891,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #1e2232;
+  border-radius: 1rem;
 }
 
 ::-moz-selection {
@@ -1225,6 +1226,7 @@ a.newer-posts:hover {
   max-height: 500px;
   background-color: #1e2232;
   overflow: hidden;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .page-cover-image figure {
