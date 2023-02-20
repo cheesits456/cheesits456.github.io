@@ -8,6 +8,6 @@ tags: [Programming]
 ---
 I made this site into a blog so I can blog :)
 
-This site was created using Jekyll and uses GitHub Pages for hosting. If you're interested in seeing the code behind this site, the source is available to view in the [GitHub repo](https://github.com/cheesits456/cheesits456.github.io 'Source code').
+This site was created using [Jekyll](https://jekyllrb.com/) and uses [GitHub Pages](https://pages.github.com/) for hosting. If you're interested in seeing the code behind this site, the source is available to view in the [GitHub repo](https://github.com/cheesits456/cheesits456.github.io).
 
-The code for this site is licensed under [GPL-3.0](https://github.com/cheesits456/cheesits456.github.io/blob/master/LICENSE 'License').
+The code for this site is licensed under [GPL-3.0](https://github.com/cheesits456/cheesits456.github.io/blob/master/LICENSE).
